@@ -1,0 +1,162 @@
+/* Body */
+
+body {
+
+    font-family: sans-serif;
+    background: white;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+/* Fotos en logos */
+
+img {
+    width: 100%;
+}
+
+#logo {
+    width: 100%;
+}
+
+#verhaalplaatje {
+    width: 110%;
+    margin-left: -1em;
+    margin-bottom: 1em;
+}
+
+/* Article */
+
+article {
+
+    text-decoration: none;
+    color: black;
+    background: ;
+    display: block;
+    box-sizing: border-box;
+    padding: 1em;
+    border-radius: 1em;
+    width: 20em;
+
+}
+
+article {
+
+    background: #09D771;
+    border-radius: 1em;
+    padding: 1em;
+    width: : 40em;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 3em;
+    ;
+
+}
+
+article > a {
+    text-decoration: none;
+    color: white;
+    background: magenta;
+    display: block;
+    box-sizing: border-box;
+    padding: 1em;
+    border-radius: 1em;
+    font-weight: bold;
+    width: 8em;
+
+}
+
+article > p {
+    color: white;
+    font-size: 21px;
+    margin-top: 1px;;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+li {
+    list-style: none;
+
+}
+
+li > a {
+    color: #09D771;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+a:hover {
+    color: blue;
+}
+
+
+
+/* Buttons */
+
+.klaarbutton {
+    text-decoration: none;
+    color: white;
+    background: magenta;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 1em;
+    width: 6em;
+    padding: 12px;
+    text-align: center;
+
+
+}
+
+/* Formulier */
+
+form {
+    margin: 1em;
+}
+
+fieldset {
+    margin: 20px;
+    padding: 10px;
+    align-content: center;
+}
+
+
+
+/* Inputs */
+
+input {
+    margin: 1px;
+    display: block;
+}
+
+
+[type=checkbox] {
+    display: inline;
+}
+
+[type=radio] {
+    display: inline;
+}
+
+[type=range] {
+    display: inline;
+}
+
+[type=text] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+[type=email] {
+    margin-bottom: 10px;
+}
+
+[type=password] {
+    margin-bottom: 10px;
+}
+
+
+/* https: //www.w3schools.com/css/css3_flexbox.asp */
